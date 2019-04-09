@@ -1,0 +1,160 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Register from the search bar",
+        "description": "",
+        "id": "hepsiburada-registering;register-from-the-search-bar",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13595397873,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a web browser is at the Hepsiburada home page",
+            "match": {
+              "location": "RegisterStep.aWebBrowserIsAtTheHepsiburadaHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 978230669,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user click dropdown",
+            "match": {
+              "location": "RegisterStep.theUserClickDropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2930374607,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on the registration item",
+            "match": {
+              "location": "RegisterStep.userClicksOnTheRegistrationItem()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5217083524,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user sees the registration form",
+            "match": {
+              "location": "RegisterStep.userSeesTheRegistrationForm()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 172834252,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters the name",
+            "match": {
+              "location": "RegisterStep.userEntersTheName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 124559189,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters the surname",
+            "match": {
+              "location": "RegisterStep.userEntersTheSurname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 251600988,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters the email",
+            "match": {
+              "location": "RegisterStep.userEntersTheEmail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 472673474,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters password",
+            "match": {
+              "location": "RegisterStep.userEntersPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134781845,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user click the agreement checkbox",
+            "match": {
+              "location": "RegisterStep.userClickTheAgreementCheckbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 179946399,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click submit button",
+            "match": {
+              "location": "RegisterStep.userClickSubmitButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1009732413,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "driver close",
+            "match": {
+              "location": "RegisterStep.driverClose()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@register"
+          }
+        ]
+      }
+    ],
+    "name": "HepsiBurada Registering",
+    "description": "",
+    "id": "hepsiburada-registering",
+    "keyword": "Feature",
+    "uri": "Register.feature"
+  }
+]
