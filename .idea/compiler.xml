@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Otomasyon" />
+        <module name="CrowdStreet_QAAutomation" />
+        <module name="Sample-Selenium-Project-With-Cucumber -Working Copy" />
       </profile>
     </annotationProcessing>
   </component>
